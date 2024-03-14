@@ -1,0 +1,21 @@
+html{
+    color: white;
+    font-family: 'sans-serif';
+    font-size: 20px;
+    background-image: url("imp.png");
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+a{
+  font-size: 40px;
+  font-family: sans-serif;
+  color:white;
+}

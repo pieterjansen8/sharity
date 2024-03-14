@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 style="margin-left: 3%;">👋</h1>
+    <h1 style="margin-left: 3%;" >Before  using the website please set a nickname</h1>
+    <input style="margin-left: 3%;" placeholder="username" id="name">
+    <h1></h1>
+    <button style="margin-left: 3%;" onclick="set_name()">set nickname</button>
+    <script>
+        var name = localStorage.getItem("name")
+        if(name=="null"){}
+        else{
+            window.location.replace("/index.html")
+        }
+        function set_name(){
+           const l_name = document.getElementById("name").value
+           localStorage.setItem("name",l_name)
+           alert("nickname is set succesfully")
+           window.location.replace("/index.html")
+        }
+    </script>
+</body>
+</html>

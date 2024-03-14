@@ -1,0 +1,137 @@
+html{
+    color: white;
+    font-family: 'sans-serif';
+    font-size: 20px;
+    background-image: url("Monterey-dark.jpg");
+    backdrop-filter: blur(10px);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+input{
+    height: 40px;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+input:hover{
+    font-size: 35px;
+    width: 75%;
+}
+input:focus{
+    font-size: 35px;
+    width: 75%;
+}
+#down{
+    margin-top: 20%;
+}
+#rooms{
+    margin-top: 10%;
+}
+h2{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+a{
+  color: white;
+}
+#room-code{
+    display: none;
+}#room-codes{
+    display: none;
+}#room-name{
+    display: none;
+}#room-names{
+    display: none;
+}
+#btn{
+    display: none;
+}
+button {
+    cursor: pointer;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    -webkit-box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+   }
+
+   button:hover {
+    letter-spacing: 3px;
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: #333;
+    box-shadow: #333;
+    font-size: 20px;
+   }
+
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: #333;
+    box-shadow: #333;
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px);
+    -webkit-transition: 100ms;
+    transition: 100ms;
+}
+#chat{
+    backdrop-filter: blur(100px);
+    width: 90%;
+    border-radius: 10px;
+}
+#down_web{
+  padding-top:200px;
+}
+.nav_bar{
+    color: #333;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    min-height: 60px;
+}
+#code_insert{
+    backdrop-filter: blur(10px);
+
+}
+.material-symbols-outlined{
+    margin-left: 1%;
+}
+#share{
+    font-size: 30px;
+    text-decoration: underline transparent;
+    transition: 700ms ease-in-out;
+    cursor: pointer;
+
+}
+#share:hover{
+    text-decoration: underline white;
+}
+#copy_btn{
+    cursor: pointer;
+    text-decoration: underline transparent;
+    transition: 700ms ease-in-out;
+}
+#copy_btn:hover{
+    text-decoration: underline white;
+}
