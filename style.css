@@ -105,7 +105,7 @@ button {
   padding-top:200px;
 }
 .nav_bar{
-    color: #333;
+    color: white;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     min-height: 60px;
