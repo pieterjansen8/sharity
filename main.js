@@ -196,7 +196,7 @@ function join_created_room(code){
 function copy_url(){
   var copy_btn = document.getElementById("copy_btn")
   var code = localStorage.getItem("url_code")
-  var url = "https://sharity.netlify.app/joinroom?code="+code
+  var url = "https://sharety.netlify.app/joinroom?code="+code
   navigator.clipboard.writeText(url)
   copy_btn.innerHTML = "Url succesfully coppied!"
 }
