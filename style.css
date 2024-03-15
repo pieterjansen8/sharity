@@ -47,6 +47,7 @@ h3{
 }
 a{
   color: white;
+  font-family: sans-serif;
 }
 #room-code{
     display: none;
