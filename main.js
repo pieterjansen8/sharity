@@ -199,3 +199,34 @@ function copy_url(){
   navigator.clipboard.writeText(url)
   copy_btn.innerHTML = "Url succesfully coppied!"
 }
+function start_theme(){
+  var theme = localStorage.getItem("theme")
+  var body = document.getElementById("html")
+  if(theme==null){
+    localStorage.setItem("theme", "dark")
+    body.style = "background-image: url('Monterey-dark.jpg');"
+  }
+  if(theme=="light"){
+    body.style = "background-image: url('Monterey-light.jpg');"
+  }
+  if(theme=="dark"){
+    body.style = "background-image: url('Monterey-dark.jpg');"
+  }
+}start_theme()
+
+function set_light(){
+  var theme = localStorage.getItem("theme")
+  var body = document.getElementById("html")
+  if(theme==null){
+    localStorage.setItem("theme", "dark")
+    body.style = "background-image: url('Monterey-dark.jpg');"
+  }
+  if(theme=="light"){
+    localStorage.setItem("theme", "dark")
+    body.style = "background-image: url('Monterey-dark.jpg');"
+  }
+  if(theme=="dark"){
+    body.style = "background-image: url('Monterey-light.jpg');"
+    localStorage.setItem("theme", "light")
+  }
+}
