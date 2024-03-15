@@ -23,7 +23,7 @@
            const l_name = document.getElementById("name").value
            localStorage.setItem("name",l_name)
            alert("nickname is set succesfully")
-           window.location.replace("/index.html")
+           window.location.replace(document.referrer)
         }
     </script>
 </body>
