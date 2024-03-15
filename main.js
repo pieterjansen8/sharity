@@ -63,7 +63,6 @@ async function code_put(){
         return
     }
     if (out.code==code){
-        alert("correct code")
         localStorage.setItem("url", url)
         localStorage.setItem("url_code", code)
     }
