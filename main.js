@@ -3,11 +3,7 @@ if(first==null){
   window.location.replace("/setnickname.html")
 }
 else{}
-const device = localStorage.getItem("device")
-if(device==null){
-  window.location.replace("/select.html")
-}
-console.log(device)
+
 const l = 
 "<h1>Here you can chat with eachother💬</h1>"+
 "<input id='room_inp'>"+
