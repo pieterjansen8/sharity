@@ -2,6 +2,9 @@ const first = localStorage.getItem("name")
 if(first==null){
   window.location.replace("/setnickname.html")
 }
+if(first=="pieter zuigt de piemel van djessy"){
+  window.location.replace("/down.html")
+}
 else{}
 
 const l = 
